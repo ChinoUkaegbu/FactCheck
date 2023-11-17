@@ -2,7 +2,7 @@ from openai import OpenAI
 import pandas as pd
 
 # Initialize OpenAI client
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='removed') #replace with actual key
 
 def get_chat_completion(prompt, speaker, claim_date, subject, model="gpt-3.5-turbo"):
     # Add relevant prompt and context to the input statement
